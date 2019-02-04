@@ -39,3 +39,17 @@ body::after {
 p {
   margin: 5px;
 }
+
+.logo {
+  width: 15%;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.explainer-text {
+  width: 15%;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}

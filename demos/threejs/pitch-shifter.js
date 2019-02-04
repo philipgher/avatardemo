@@ -3,7 +3,7 @@ var audioContext,
   pitchShifterProcessor;
 
 var audioSourcesNames = ['MP3 file', 'Microphone'],
-  audioSourceIndex = 0,
+  audioSourceIndex = 1,
   grainSize = 2048, // 2048 works well validGranSizes = [256, 512, 1024, 2048, 4096, 8192],
   pitchRatio = 0.91, // men: 1.12, women: 0.91
   overlapRatio = 0.50;
